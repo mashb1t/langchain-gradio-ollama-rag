@@ -118,9 +118,9 @@ def download(url):
 with gr.Blocks().queue() as demo:
     # https://pdfobject.com/pdf/sample.pdf
     # https://d18rn0p25nwr6d.cloudfront.net/CIK-0001813756/975b3e9b-268e-4798-a9e4-2a9a7c92dc10.pdf
-    url = gr.Textbox(label="Document URL")
+    url = gr.Textbox(label="Document URL", value="https://pdfobject.com/pdf/sample.pdf")
     download_btn = gr.Button("Download")
-    query = gr.Textbox(label="Query")
+    query = gr.Textbox(label="Query", value="summarize")
 
     generate_btn = gr.Button("Generate")
     output = gr.Textbox(label="Output")

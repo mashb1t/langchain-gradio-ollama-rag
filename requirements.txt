@@ -108,3 +108,5 @@ Werkzeug==2.3.6
 wrapt==1.15.0
 yarl==1.9.2
 gradio==3.50.2
+streamlit==1.37.0
+watchdog==4.0.1
